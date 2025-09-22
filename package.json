@@ -1,0 +1,19 @@
+{
+  "name": "mermaid-renderer",
+  "version": "1.0.0",
+  "description": "Render mermaid code blocks on your browser",
+  "type": "module",
+  "main": "src/renderer.js",
+  "exports": {
+    ".": "./src/renderer.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "mermaid",
+    "markdown",
+    "renderer"
+  ],
+  "license": "MIT"
+}
